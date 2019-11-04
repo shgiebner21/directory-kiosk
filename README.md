@@ -1,5 +1,25 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+## Comments on this repo;
+
+#### `This is a project I am finishing up now.  I stripped out anything that could be considered proprietary so it will not run, but gives a good idea of how I like to approach building applications.`
+
+### `This is a directory touch-screen like in the airport.  It is for a large entertainment facility that has about twenty points of interest for users to select.  There were some interesting problems to solve here;`
+
+#### `The PromotionBoard (probably should have been an Organism, not a Molecule), is for an image slideshow of important upcoming events.  An interesting issue was that when a Point of Interest was clicked on, the information modal interrupted state data and the image slideshow went black until the modal was closed.  I have not yet had time to go back and look into why, but found that using localStorage solved the problem which is why there is that one deviation from React state management.`
+
+#### `The client wanted the Points of Interest on the background map to be clickable and also open the Information Modal, so it was necessary to find a way to have multiple svg assets anywhere on the screen, and be able to draw custom shapes to meet the variety of POI images on the map.`
+
+#### `The Project Manager decided to move away from the custom shapes and just put numbers on the POI items but add animation, so I found a nice animation that allows quite a bit of customization on our part.  I left the custom shapes and the animation as they were both interesting problems to solve.  This is what it looks like, pretty neat visual; https://codepen.io/guerreiro/pen/obhzc`
+
+#### `The API needs for this project are very simple, there is only Read needed, and all data is provided in a single JSON object.`
+
+
+
+-----------------------
+
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -24,45 +44,3 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.<br />
 Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
