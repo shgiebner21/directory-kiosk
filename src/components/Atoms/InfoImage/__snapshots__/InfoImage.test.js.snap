@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InfoImage matches the snapshot 1`] = `ShallowWrapper {}`;
+
+exports[`InfoImage matches the snapshot when dimmed 1`] = `ShallowWrapper {}`;

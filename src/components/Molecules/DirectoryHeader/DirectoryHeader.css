@@ -1,0 +1,35 @@
+ .header-container {
+    display: flex;
+    width: 32vw;
+    height: auto;
+    padding-top: 2vh;
+    padding-right: 1vh;
+    padding-bottom: 2vh;
+    box-shadow: 5px 5px 5px 0px black; 
+    justify-content: space-around;
+    align-items: center;
+ } 
+
+ .directory-name {
+  flex: 1;
+ }
+
+ .directory-separator {
+  position:absolute;
+  left:44%;
+  top:20%;
+  bottom:20%;
+  outline: 2px solid lightgray;
+ }
+
+ .directory-logo {
+  flex: 1;
+  margin-right: -50px;
+ }
+
+ .directory-text {
+   font-family: 'Open Sans', sans-serif;
+   font-size: 70px;
+   font-weight: 600;
+   margin-left: 85px;
+ }

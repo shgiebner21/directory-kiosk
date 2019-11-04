@@ -1,0 +1,11 @@
+.info-header-primary-text {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 34px;
+  font-weight: bold;
+}
+
+.info-header-secondary-text {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 28px;
+  font-style: italic;
+}

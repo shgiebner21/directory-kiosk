@@ -1,0 +1,31 @@
+.frame {
+  height: 100%;
+  overflow-y: auto;
+}
+.scroll {
+  
+}
+
+.MenuItem.Mui-selected { /* Changes color of selected tab & text */
+  background: rgba(209,121,73,1);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+
+.tab-description-section-header {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.tab-description-section-paragraph {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+}
+
+.pdf-document {
+  display: flex;
+  justify-content: center;
+}
