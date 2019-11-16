@@ -36,21 +36,21 @@ export default class Shapes extends Component{
     return (
       <svg  viewBox={`0 0 ${width} ${height}`} width="3840" height="2160" >
         <a href="#aquarium"   
-           onClick={() => { this.onIdClick('aquarium') }} 
+           onTouchEnd={() => { this.onIdClick('aquarium') }} 
            onClose={onClose} id='aquarium' >
           <path fill="transparent" stroke="red" strokeWidth="3"
                  d="" />
         </a>
 
         <a href="#ropesCourse"   
-           onClick={() => { this.onIdClick('ropesCourse') }} 
+           onTouchEnd={() => { this.onIdClick('ropesCourse') }} 
            onClose={onClose} id='ropesCourse' >
           <path fill="transparent" stroke="red" strokeWidth="3"
                  d="" />
         </a>
 
         <a href="#mirrorMaze"   
-           onClick={() => { this.onIdClick('mirrorMaze') }} 
+           onTouchEnd={() => { this.onIdClick('mirrorMaze') }} 
            onClose={onClose} id='mirrorMaze' >
           <path fill="transparent" stroke="red" strokeWidth="3"
                  d="" />
@@ -58,35 +58,35 @@ export default class Shapes extends Component{
 
         {/* This has been removed from the directory for now. */}
         {/* <a href="#fudgery"   
-           onClick={() => { this.onIdClick('fudgery') }} 
+           onTouchEnd={() => { this.onIdClick('fudgery') }} 
            onClose={onClose} id='fudgery' >
           <path fill="transparent" stroke="red" strokeWidth="3"
                  d="" />
         </a> */}
 
         <a href="#trainShed"   
-           onClick={() => { this.onIdClick('trainShed') }} 
+           onTouchEnd={() => { this.onIdClick('trainShed') }} 
            onClose={onClose} id='trainShed' >
           <path fill="transparent" stroke="red" strokeWidth="3"
                  d="" />
         </a>
 
         <a href="#cafe"   
-           onClick={() => { this.onIdClick('cafe') }} 
+           onTouchEnd={() => { this.onIdClick('cafe') }} 
            onClose={onClose} id='cafe' >
           <path fill="transparent" stroke="red" strokeWidth="3"
                  d="" />
         </a>
 
         <a href="#landry"   
-           onClick={() => { this.onIdClick('landrys') }} 
+           onTouchEnd={() => { this.onIdClick('landrys') }} 
            onClose={onClose} id='landrys' >
           <path fill="transparent" stroke="red" strokeWidth="3"
                  d=""/>
         </a>
 
         <a href="#miniGolf"   
-           onClick={() => { this.onIdClick('miniGolf') }} 
+           onTouchEnd={() => { this.onIdClick('miniGolf') }} 
            onClose={onClose} id='miniGolf' >
 
           <circle cx="900" cy="1625" r="90" fill="transparent" />
@@ -102,7 +102,7 @@ export default class Shapes extends Component{
         </a>
 
         <a href="#playground"   
-           onClick={() => { this.onIdClick('playground') }} 
+           onTouchEnd={() => { this.onIdClick('playground') }} 
            onClose={onClose} id='playground' >
 
             <circle cx="1200" cy="1800" r="90" fill="transparent" />
@@ -117,7 +117,7 @@ export default class Shapes extends Component{
               <path d="M 60,0 A 60,60 0 0,0 -,0Z" transform="matrix(0.866, -0.5, 0.5, 0.866, 2350, 2550)" />
         </a>
 
-        <a href="#carousel" onClick={() => { this.onIdClick('carousel') }}  
+        <a href="#carousel" onTouchEnd={() => { this.onIdClick('carousel') }}  
         onClose={onClose} id='carousel' >
           <circle cx="1000" cy="1750" r="90" fill="transparent" />
             <foreignObject x="970" y="1720" width="90" height="90" >
@@ -132,7 +132,7 @@ export default class Shapes extends Component{
         </a>
 
         <a href="#sodaFountain"   
-           onClick={() => { this.onIdClick('sodaFountain') }} 
+           onTouchEnd={() => { this.onIdClick('sodaFountain') }} 
            onClose={onClose} id='sodaFountain' >
 
             <circle cx="2000" cy="1875" r="90" fill="transparent" />
@@ -148,7 +148,7 @@ export default class Shapes extends Component{
         </a>
 
         <a href="#wheel"
-           onClick={() => { this.onIdClick('ferrisWheel') }} 
+           onTouchEnd={() => { this.onIdClick('ferrisWheel') }} 
            onClose={onClose} id='wheel' >
 
           <circle cx="425" cy="1700" r="90" fill="transparent" />
@@ -164,7 +164,7 @@ export default class Shapes extends Component{
         </a>
 
         <a href="#lightShow"
-           onClick={() => { this.onIdClick('lightShow') }} 
+           onTouchEnd={() => { this.onIdClick('lightShow') }} 
            onClose={onClose} id='lightShow' >
 
           <circle cx="1400" cy="1500" r="90" fill="transparent" />
@@ -182,7 +182,7 @@ export default class Shapes extends Component{
 
 
         <a href="#hotel"
-           onClick={() => { this.onIdClick('hotel') }} 
+           onTouchEnd={() => { this.onIdClick('hotel') }} 
            onClose={onClose} id='hotel' >
 
           <circle cx="900" cy="1150" r="90" fill="transparent" />
@@ -199,14 +199,14 @@ export default class Shapes extends Component{
 
 
         <a href="#aquariumFoundation"
-           onClick={() => { this.onIdClick('aquariumFoundation') }} 
+           onTouchEnd={() => { this.onIdClick('aquariumFoundation') }} 
            onClose={onClose} id='aquariumFoundation' >
           <path fill="transparent" stroke="red" strokeWidth="3"
                  d=""/>
         </a>
 
         <a href="#donorPlaza"
-           onClick={() => { this.onIdClick('donorPlaza') }} 
+           onTouchEnd={() => { this.onIdClick('donorPlaza') }} 
            onClose={onClose} id='donorPlaza' >
           <path fill="transparent" stroke="red" strokeWidth="3"
                  d=""/>
